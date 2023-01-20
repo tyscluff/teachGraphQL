@@ -5,6 +5,6 @@ import usersReducer from '../redux/usersSlice';
 export const store = configureStore({
   reducer: {
     topTweets: topTweetsReducer,
-    users: usersReducer
+    users: usersReducer 
   }, 
 });
